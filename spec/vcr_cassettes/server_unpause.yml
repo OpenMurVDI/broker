@@ -1,0 +1,593 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/images/detail
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Compute-Request-Id:
+      - req-84d1f114-de54-48da-92cd-d78ab9ad1c18
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1459'
+      Date:
+      - Tue, 07 Jan 2014 12:09:34 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"images": [{"status": "ACTIVE", "updated": "2013-11-12T11:48:44Z",
+        "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/images/24a8276e-f0d3-4450-90f9-0ac26c899548",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/images/24a8276e-f0d3-4450-90f9-0ac26c899548",
+        "rel": "bookmark"}, {"href": "http://155.54.225.253:9292/a61e35ed059e4550b5c4dbf5bc55c90c/images/24a8276e-f0d3-4450-90f9-0ac26c899548",
+        "type": "application/vnd.openstack.image", "rel": "alternate"}], "id": "24a8276e-f0d3-4450-90f9-0ac26c899548",
+        "OS-EXT-IMG-SIZE:size": 21474836480, "name": "windows7", "created": "2013-11-12T11:36:19Z",
+        "minDisk": 0, "progress": 100, "minRam": 0, "metadata": {}}, {"status": "ACTIVE",
+        "updated": "2013-04-29T09:45:39Z", "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/images/c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/images/c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "rel": "bookmark"}, {"href": "http://155.54.225.253:9292/a61e35ed059e4550b5c4dbf5bc55c90c/images/c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "type": "application/vnd.openstack.image", "rel": "alternate"}], "id": "c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "OS-EXT-IMG-SIZE:size": 252051456, "name": "ubuntu_server_12_04_x64", "created":
+        "2013-04-29T09:45:38Z", "minDisk": 0, "progress": 100, "minRam": 0, "metadata":
+        {}}]}'
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:34 GMT
+- request:
+    method: get
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/images/detail
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Compute-Request-Id:
+      - req-4607ff23-10ac-45b0-9085-9a5e1b852acc
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1459'
+      Date:
+      - Tue, 07 Jan 2014 12:09:34 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"images": [{"status": "ACTIVE", "updated": "2013-11-12T11:48:44Z",
+        "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/images/24a8276e-f0d3-4450-90f9-0ac26c899548",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/images/24a8276e-f0d3-4450-90f9-0ac26c899548",
+        "rel": "bookmark"}, {"href": "http://155.54.225.253:9292/a61e35ed059e4550b5c4dbf5bc55c90c/images/24a8276e-f0d3-4450-90f9-0ac26c899548",
+        "type": "application/vnd.openstack.image", "rel": "alternate"}], "id": "24a8276e-f0d3-4450-90f9-0ac26c899548",
+        "OS-EXT-IMG-SIZE:size": 21474836480, "name": "windows7", "created": "2013-11-12T11:36:19Z",
+        "minDisk": 0, "progress": 100, "minRam": 0, "metadata": {}}, {"status": "ACTIVE",
+        "updated": "2013-04-29T09:45:39Z", "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/images/c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/images/c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "rel": "bookmark"}, {"href": "http://155.54.225.253:9292/a61e35ed059e4550b5c4dbf5bc55c90c/images/c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "type": "application/vnd.openstack.image", "rel": "alternate"}], "id": "c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "OS-EXT-IMG-SIZE:size": 252051456, "name": "ubuntu_server_12_04_x64", "created":
+        "2013-04-29T09:45:38Z", "minDisk": 0, "progress": 100, "minRam": 0, "metadata":
+        {}}]}'
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:34 GMT
+- request:
+    method: get
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/detail
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Compute-Request-Id:
+      - req-2976e5fd-2958-4bd0-ac1d-13051193f177
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2951'
+      Date:
+      - Tue, 07 Jan 2014 12:09:34 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"flavors": [{"name": "m1.medium", "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/0241420c-5330-4b26-8d65-1cf67dad45e3",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/0241420c-5330-4b26-8d65-1cf67dad45e3",
+        "rel": "bookmark"}], "ram": 2048, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        2, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 40, "id": "0241420c-5330-4b26-8d65-1cf67dad45e3"}, {"name": "m1.tiny",
+        "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/1",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/1",
+        "rel": "bookmark"}], "ram": 512, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        1, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 0, "id": "1"}, {"name": "m1.xlarge", "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/5",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/5",
+        "rel": "bookmark"}], "ram": 16384, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        8, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 160, "id": "5"}, {"name": "prestashop", "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/81ae8b39-18c3-4891-a347-2c7d59315811",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/81ae8b39-18c3-4891-a347-2c7d59315811",
+        "rel": "bookmark"}], "ram": 8096, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        16, "swap": 8, "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        20, "disk": 20, "id": "81ae8b39-18c3-4891-a347-2c7d59315811"}, {"name": "m1.small",
+        "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/b19c5ea4-4ae9-45e8-9a21-ff7faf1c824c",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/b19c5ea4-4ae9-45e8-9a21-ff7faf1c824c",
+        "rel": "bookmark"}], "ram": 1024, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        1, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 20, "id": "b19c5ea4-4ae9-45e8-9a21-ff7faf1c824c"}, {"name": "m1.large",
+        "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/fdfd9907-d80d-4325-9e55-9826dd3c4543",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/fdfd9907-d80d-4325-9e55-9826dd3c4543",
+        "rel": "bookmark"}], "ram": 4096, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        2, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 80, "id": "fdfd9907-d80d-4325-9e55-9826dd3c4543"}]}'
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:34 GMT
+- request:
+    method: get
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/detail
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Compute-Request-Id:
+      - req-89f336c3-7009-47ac-af3b-f35c63d5bc2a
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2951'
+      Date:
+      - Tue, 07 Jan 2014 12:09:34 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"flavors": [{"name": "m1.medium", "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/0241420c-5330-4b26-8d65-1cf67dad45e3",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/0241420c-5330-4b26-8d65-1cf67dad45e3",
+        "rel": "bookmark"}], "ram": 2048, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        2, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 40, "id": "0241420c-5330-4b26-8d65-1cf67dad45e3"}, {"name": "m1.tiny",
+        "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/1",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/1",
+        "rel": "bookmark"}], "ram": 512, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        1, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 0, "id": "1"}, {"name": "m1.xlarge", "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/5",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/5",
+        "rel": "bookmark"}], "ram": 16384, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        8, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 160, "id": "5"}, {"name": "prestashop", "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/81ae8b39-18c3-4891-a347-2c7d59315811",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/81ae8b39-18c3-4891-a347-2c7d59315811",
+        "rel": "bookmark"}], "ram": 8096, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        16, "swap": 8, "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        20, "disk": 20, "id": "81ae8b39-18c3-4891-a347-2c7d59315811"}, {"name": "m1.small",
+        "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/b19c5ea4-4ae9-45e8-9a21-ff7faf1c824c",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/b19c5ea4-4ae9-45e8-9a21-ff7faf1c824c",
+        "rel": "bookmark"}], "ram": 1024, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        1, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 20, "id": "b19c5ea4-4ae9-45e8-9a21-ff7faf1c824c"}, {"name": "m1.large",
+        "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/fdfd9907-d80d-4325-9e55-9826dd3c4543",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/fdfd9907-d80d-4325-9e55-9826dd3c4543",
+        "rel": "bookmark"}], "ram": 4096, "OS-FLV-DISABLED:disabled": false, "vcpus":
+        2, "swap": "", "os-flavor-access:is_public": true, "rxtx_factor": 1.0, "OS-FLV-EXT-DATA:ephemeral":
+        0, "disk": 80, "id": "fdfd9907-d80d-4325-9e55-9826dd3c4543"}]}'
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:34 GMT
+- request:
+    method: post
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers
+    body:
+      encoding: UTF-8
+      string: '{"server":{"name":"unpause","imageRef":"c7818c6a-0868-4af7-af7e-6b8c55e1688d","flavorRef":"1","personality":null,"security_groups":[]}}'
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 202
+      message: Accepted
+    headers:
+      X-Compute-Request-Id:
+      - req-f0a9f921-39a3-446e-a952-661afedf523e
+      Location:
+      - http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '444'
+      Date:
+      - Tue, 07 Jan 2014 12:09:35 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"server": {"security_groups": [{"name": "default"}], "OS-DCF:diskConfig":
+        "MANUAL", "id": "70e72400-20f1-4501-ab5c-10d9f37de8b2", "links": [{"href":
+        "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "bookmark"}], "adminPass": "L7VhqDnWfKVb"}}'
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:35 GMT
+- request:
+    method: get
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Compute-Request-Id:
+      - req-99b90671-653b-4de4-b527-eec7f3c6d62b
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1237'
+      Date:
+      - Tue, 07 Jan 2014 12:09:35 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"server": {"status": "BUILD", "updated": "2014-01-07T12:09:35Z", "hostId":
+        "", "addresses": {}, "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "bookmark"}], "key_name": null, "image": {"id": "c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "links": [{"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/images/c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "rel": "bookmark"}]}, "OS-EXT-STS:task_state": "scheduling", "OS-EXT-STS:vm_state":
+        "building", "flavor": {"id": "1", "links": [{"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/1",
+        "rel": "bookmark"}]}, "id": "70e72400-20f1-4501-ab5c-10d9f37de8b2", "security_groups":
+        [{"name": "default"}], "OS-EXT-AZ:availability_zone": "nova", "user_id": "7b72c55cfe934357853dd1e1d25f91fc",
+        "name": "unpause", "created": "2014-01-07T12:09:34Z", "tenant_id": "a61e35ed059e4550b5c4dbf5bc55c90c",
+        "OS-DCF:diskConfig": "MANUAL", "accessIPv4": "", "accessIPv6": "", "progress":
+        0, "OS-EXT-STS:power_state": 0, "config_drive": "", "metadata": {}}}'
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:35 GMT
+- request:
+    method: post
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2/action
+    body:
+      encoding: UTF-8
+      string: '{"pause":null}'
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 202
+      message: Accepted
+    headers:
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '0'
+      Date:
+      - Tue, 07 Jan 2014 12:09:40 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:40 GMT
+- request:
+    method: get
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers?cacheid=1389096585
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Compute-Request-Id:
+      - req-2bab80af-72ce-4b16-a200-ebe8f1510c37
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '364'
+      Date:
+      - Tue, 07 Jan 2014 12:09:45 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"servers": [{"id": "70e72400-20f1-4501-ab5c-10d9f37de8b2", "links":
+        [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "bookmark"}], "name": "unpause"}]}'
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:45 GMT
+- request:
+    method: get
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers?cacheid=1389096585
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Compute-Request-Id:
+      - req-a07e8f11-3d2c-41a4-994e-f2a7d0b96030
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '364'
+      Date:
+      - Tue, 07 Jan 2014 12:09:45 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"servers": [{"id": "70e72400-20f1-4501-ab5c-10d9f37de8b2", "links":
+        [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "bookmark"}], "name": "unpause"}]}'
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:45 GMT
+- request:
+    method: get
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Compute-Request-Id:
+      - req-379b1ddd-9f80-41ff-b61a-245882157c2e
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1348'
+      Date:
+      - Tue, 07 Jan 2014 12:09:45 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"server": {"status": "PAUSED", "updated": "2014-01-07T12:09:40Z",
+        "hostId": "1acef3da4b4b06a699697a819c20f89e8cdc4c7e7e6ff3136243ec08", "addresses":
+        {"adan_net": [{"version": 4, "addr": "192.168.7.3", "OS-EXT-IPS:type": "fixed"}]},
+        "links": [{"href": "http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "self"}, {"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2",
+        "rel": "bookmark"}], "key_name": null, "image": {"id": "c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "links": [{"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/images/c7818c6a-0868-4af7-af7e-6b8c55e1688d",
+        "rel": "bookmark"}]}, "OS-EXT-STS:task_state": null, "OS-EXT-STS:vm_state":
+        "paused", "flavor": {"id": "1", "links": [{"href": "http://nube.inf.um.es:8774/a61e35ed059e4550b5c4dbf5bc55c90c/flavors/1",
+        "rel": "bookmark"}]}, "id": "70e72400-20f1-4501-ab5c-10d9f37de8b2", "security_groups":
+        [{"name": "default"}], "OS-EXT-AZ:availability_zone": "nova", "user_id": "7b72c55cfe934357853dd1e1d25f91fc",
+        "name": "unpause", "created": "2014-01-07T12:09:34Z", "tenant_id": "a61e35ed059e4550b5c4dbf5bc55c90c",
+        "OS-DCF:diskConfig": "MANUAL", "accessIPv4": "", "accessIPv6": "", "OS-EXT-STS:power_state":
+        3, "config_drive": "", "metadata": {}}}'
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:45 GMT
+- request:
+    method: post
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2/action
+    body:
+      encoding: UTF-8
+      string: '{"unpause":null}'
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 202
+      message: Accepted
+    headers:
+      Content-Type:
+      - text/html; charset=UTF-8
+      Content-Length:
+      - '0'
+      Date:
+      - Tue, 07 Jan 2014 12:09:45 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:45 GMT
+- request:
+    method: delete
+    uri: http://nube.inf.um.es:8774/v2/a61e35ed059e4550b5c4dbf5bc55c90c/servers/70e72400-20f1-4501-ab5c-10d9f37de8b2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Auth-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      X-Storage-Token:
+      - MIIIpwYJKoZIhvcNAQcCoIIImDCCCJQCAQExCTAHBgUrDgMCGjCCB4AGCSqGSIb3DQEHAaCCB3EEggdteyJhY2Nlc3MiOiB7InRva2VuIjogeyJpc3N1ZWRfYXQiOiAiMjAxNC0wMS0wN1QwOTo0NjowNS42ODcxMDQiLCAiZXhwaXJlcyI6ICIyMDE0LTAxLTA4VDA5OjQ2OjA1WiIsICJpZCI6ICJwbGFjZWhvbGRlciIsICJ0ZW5hbnQiOiB7ImRlc2NyaXB0aW9uIjogIkFkYW4iLCAiZW5hYmxlZCI6IHRydWUsICJpZCI6ICJhNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJuYW1lIjogImFkYW4ifX0sICJzZXJ2aWNlQ2F0YWxvZyI6IFt7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIiwgInJlZ2lvbiI6ICJjY2FsY3Vsb19lc3BpbmFyZG8iLCAiaW50ZXJuYWxVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzYvdjEvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAiaWQiOiAiMTlkN2NhNDY0YmEzNGE1MmE0ZGIzMDE1MTBiYWIwYzgiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo4Nzc2L3YxL2E2MWUzNWVkMDU5ZTQ1NTBiNWM0ZGJmNWJjNTVjOTBjIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogInZvbHVtZSIsICJuYW1lIjogImNpbmRlciJ9LCB7ImVuZHBvaW50cyI6IFt7ImFkbWluVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo5MjkyL3YyLjAiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIiwgImlkIjogIjJhNzVlMzI2YzQ4ZTQwOTViYWIyMDcwMTRhZmEwMzU3IiwgInB1YmxpY1VSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6OTI5Mi92Mi4wIn1dLCAiZW5kcG9pbnRzX2xpbmtzIjogW10sICJ0eXBlIjogImltYWdlIiwgIm5hbWUiOiAiZ2xhbmNlIn0sIHsiZW5kcG9pbnRzIjogW3siYWRtaW5VUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMiLCAicmVnaW9uIjogImNjYWxjdWxvX2VzcGluYXJkbyIsICJpbnRlcm5hbFVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6ODc3NC92Mi9hNjFlMzVlZDA1OWU0NTUwYjVjNGRiZjViYzU1YzkwYyIsICJpZCI6ICI4YzQ1YjI1MDNhODY0MTE3ODY4NmNiZjQ5ZTdiOTIzYiIsICJwdWJsaWNVUkwiOiAiaHR0cDovL251YmUuaW5mLnVtLmVzOjg3NzQvdjIvYTYxZTM1ZWQwNTllNDU1MGI1YzRkYmY1YmM1NWM5MGMifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiY29tcHV0ZSIsICJuYW1lIjogIm5vdmEifSwgeyJlbmRwb2ludHMiOiBbeyJhZG1pblVSTCI6ICJodHRwOi8vbnViZS5pbmYudW0uZXM6MzUzNTcvdjIuMCIsICJyZWdpb24iOiAiY2NhbGN1bG9fZXNwaW5hcmRvIiwgImludGVybmFsVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAiLCAiaWQiOiAiMTBlYjAwOWY2YmJkNDdhYTkwMTVlYjE1Yzg4NGZkYmYiLCAicHVibGljVVJMIjogImh0dHA6Ly9udWJlLmluZi51bS5lczo1MDAwL3YyLjAifV0sICJlbmRwb2ludHNfbGlua3MiOiBbXSwgInR5cGUiOiAiaWRlbnRpdHkiLCAibmFtZSI6ICJrZXlzdG9uZSJ9XSwgInVzZXIiOiB7InVzZXJuYW1lIjogImFkYW4iLCAicm9sZXNfbGlua3MiOiBbXSwgImlkIjogIjdiNzJjNTVjZmU5MzQzNTc4NTNkZDFlMWQyNWY5MWZjIiwgInJvbGVzIjogW3sibmFtZSI6ICJfbWVtYmVyXyJ9LCB7Im5hbWUiOiAiTWVtYmVyIn1dLCAibmFtZSI6ICJhZGFuIn0sICJtZXRhZGF0YSI6IHsiaXNfYWRtaW4iOiAwLCAicm9sZXMiOiBbIjlmZTJmZjllZTQzODRiMTg5NGE5MDg3OGQzZTkyYmFiIiwgImVkYjUxOGMzMDYyZTQ4ZmJhMjk1YzE5ZjQ1OGUyZmM2Il19fX0xgf8wgfwCAQEwXDBXMQswCQYDVQQGEwJVUzEOMAwGA1UECBMFVW5zZXQxDjAMBgNVBAcTBVVuc2V0MQ4wDAYDVQQKEwVVbnNldDEYMBYGA1UEAxMPd3d3LmV4YW1wbGUuY29tAgEBMAcGBSsOAwIaMA0GCSqGSIb3DQEBAQUABIGAltAiWbSdNxpp8aHLS0uHedrTv+o-3GNZ7Wl15P4qgdttHqAKOfKdjOSZqLKNMq77nCtXsUe18AOhAmFqDYHT0-EInSwGX1-0fcy2ZH0+92xhgx2wVK0aaWFGTJ38WlhR2+mdF83wPWsJ1j8qYduWzFG1IcYkTxDPVvoqrDGpM20=
+      Connection:
+      - Keep-Alive
+      User-Agent:
+      - OpenStack Ruby API 1.1.1
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Content-Length:
+      - '0'
+      X-Compute-Request-Id:
+      - req-a58aa23f-e5a7-43ba-8be7-3ea2d8716f8f
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 07 Jan 2014 12:09:46 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 07 Jan 2014 12:09:46 GMT
+recorded_with: VCR 2.8.0

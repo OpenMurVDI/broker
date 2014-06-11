@@ -1,0 +1,44 @@
+%h1 Users
+%p You can manage users in this page
+
+%table.table.table-bordered.table-hover
+  %thead
+    %th
+      Last Name
+    %th
+      First Name
+    %th 
+      Email
+    %th 
+      Actions
+  %tbody
+    - @users.each do |user| 
+      - @class = nil
+      - if !user.confirmed?
+        - @class = "warning"
+      - elsif !user.approved?
+        - @class = "info"
+      %tr{ :class => @class}
+        %td
+          =user.last_name
+        %td
+          =user.first_name
+        %td
+          =user.email
+        %td
+          - if user.confirmed?
+            %button.btn.btn-mini.btn-success Confirmed
+          - else
+            %button.btn.btn-mini.btn-danger Not confirmed
+          - if user.approved?
+            =link_to 'Approved', administration_toggle_approved_user_path(:id => user.id), :method => :put, :class => 'btn btn-mini btn-success'
+          - else
+            =link_to 'Not approved', administration_toggle_approved_user_path(:id => user.id), :method => :put, :class => 'btn btn-mini btn-danger'
+          =link_to 'Edit', administration_edit_user_path(id: user.id), :class => 'btn btn-mini btn-success', id: "edit_#{user.id}"
+          =link_to 'Delete', administration_delete_user_path(id: user.id), 
+              class: 'btn btn-mini btn-danger', method: :delete, data: { confirm: 'Are you sure?' }, 
+              id: "delete_#{user.id}"
+
+= link_to 'Create users from CSV file', administration_upload_csv_path, class: 'btn btn-info'
+
+      

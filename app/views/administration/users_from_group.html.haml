@@ -1,0 +1,38 @@
+%h1 #{@role.name.capitalize} Users
+
+
+%table.table.table-bordered.table-hover
+  %thead
+    %th
+      Last Name
+    %th
+      First Name
+    %th 
+      Email
+    %th 
+      Actions
+  %tbody
+    - @users.each do |user| 
+      - @class = nil
+      - if !user.confirmed?
+        - @class = "warning"
+      - elsif !user.approved?
+        - @class = "info"
+      %tr{ :class => @class}
+        %td
+          =user.last_name
+        %td
+          =user.first_name
+        %td
+          =user.email
+        %td
+          - if user.confirmed?
+            %button.btn.btn-mini.btn-success Confirmed
+          - else
+            %button.btn.btn-mini.btn-danger Not confirmed
+          - if user.approved?
+            =link_to 'Approved', administration_toggle_approved_user_path(:id => user.id), :method => :put, :class => 'btn btn-mini btn-success'
+          - else
+            =link_to 'Not approved', administration_toggle_approved_user_path(:id => user.id), :method => :put, :class => 'btn btn-mini btn-danger'
+
+      

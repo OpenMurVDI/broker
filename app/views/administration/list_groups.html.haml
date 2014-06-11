@@ -1,0 +1,36 @@
+%h1 Groups
+%p You can manage groups in this page
+
+=link_to 'Add role', new_role_path, class: 'btn btn-info'
+%br
+
+%table.table.table-bordered.table-hover
+  %thead
+    %th
+      Name
+    %th
+      Machine Lifetime
+    %th
+      Machine Idletime
+    %th 
+      Actions
+  %tbody
+    - @groups.each do |group| 
+      %tr
+        %td
+          =group.name
+        %td
+          =group.machine_lifetime
+        %td
+          =group.machine_idletime
+        %td
+          =link_to 'See users', administration_users_from_group_path(:id => group.id), :class => 'btn btn-mini btn-info', id: "see_users_from_group_#{group.id}"
+          =link_to 'Edit', edit_role_path(:id => group.id), :class => 'btn btn-mini btn-info', id: "edit_role_#{group.id}"
+          =link_to 'Delete', group,
+            class: 'btn btn-mini btn-danger', method: :delete, data: { confirm: 'Are you sure?' }, 
+            id: "delete_role_#{group.id}"
+
+
+
+
+      
